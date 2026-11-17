@@ -13,7 +13,9 @@
     "login": "devvit login",
     "prettier": "prettier --write .",
     "test:types": "tsc --build",
-    "test:unit": "node --experimental-strip-types --no-warnings=ExperimentalWarning --test \"src/**/*.test.ts\""
+    "test:unit": "node --experimental-strip-types --no-warnings=ExperimentalWarning --test \"src/**/*.test.ts\"",
+    "proto": "vite --config prototype/vite.confing.ts",
+    "sim": "node scripts/bot-sim.ts"
   },
   "engines": {
     "node": ">=24.0.0"
