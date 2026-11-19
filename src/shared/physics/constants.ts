@@ -45,7 +45,7 @@ export const NO_WRECK_LAUNCHER = 110;
 
 /** Wrecks are kept this far from an arena edge and from planet surfaces. */
 export const WRECK_EDGE_INSET = 24;
-export const WRECH_SURFACE_GAP = 6;
+export const WRECk_SURFACE_GAP = 6;
 
 export const GHOST_FRACTION_FIRST = 0.3;
 export const GHOST_FRACTION = 0.15;
