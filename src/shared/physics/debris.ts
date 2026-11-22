@@ -87,6 +87,7 @@ export function usedDebris(
   excludeOwner: string | null
 ): string[] {
   const owners = new Map<string, string>();
+  for (const d of debris) owners.set(d.id, d.owner);
   return Object.entries(stage.debrisDv)
     .filter(
       ([id, dv]) => dv >= DEBRIS_USED_DV && owners.get(id) !== excludeOwner
