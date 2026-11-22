@@ -4,9 +4,9 @@ import {
   PLANET_MU_PER_R2,
   WORLD_H,
   WORLD_W,
-} from './constants';
-import { intRange, pick, range, rngFromString, type Rng } from './rng';
-import type { Archetype, Field, Planet, Vec } from './types';
+} from './constants.ts';
+import { intRange, pick, range, rngFromString, type Rng } from './rng.ts';
+import type { Archetype, Field, Planet, Vec } from './types.ts';
 
 export const ARCHETYPES: readonly Archetype[] = [
   'gate',

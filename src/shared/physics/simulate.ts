@@ -12,9 +12,9 @@ import {
   WORLD_W,
   WRECK_EDGE_INSET,
   WRECk_SURFACE_GAP,
-} from './constants';
-import { clampLaunch } from './launch';
-import type { Debris, Field, StageResult, Vec } from './types';
+} from './constants.ts';
+import { clampLaunch } from './launch.ts';
+import type { Debris, Field, StageResult, Vec } from './types.ts';
 
 export function debrisMu(d: Debris): number {
   const s = d.strength < 0 ? 0 : d.strength > 1 ? 1 : d.strength;

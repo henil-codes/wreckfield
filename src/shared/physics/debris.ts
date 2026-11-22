@@ -9,8 +9,8 @@ import {
   WORLD_W,
   WRECK_EDGE_INSET,
   WRECk_SURFACE_GAP,
-} from './constants';
-import type { Debris, Field, StageOutcome, StageResult, Vec } from './types';
+} from './constants.ts';
+import type { Debris, Field, StageOutcome, StageResult, Vec } from './types.ts';
 
 function pushOutOf(p: Vec, c: Vec, radius: number): Vec {
   const dx = p.x - c.x;

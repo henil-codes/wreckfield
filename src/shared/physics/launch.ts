@@ -1,5 +1,5 @@
-import { MAX_LAUNCH_SPEED, MIN_LAUNCH_SPEED } from './constants';
-import type { Vec } from './types';
+import { MAX_LAUNCH_SPEED, MIN_LAUNCH_SPEED } from './constants.ts';
+import type { Vec } from './types.ts';
 
 /**
  * Clamp a launch vector's length to [MIN_LAUNCH_SPEED, MAX_LAUNCH_SPEED]
